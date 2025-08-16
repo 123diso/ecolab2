@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head><meta charset="UTF-8"><title>Nuevo Post</title></head>
+    <body>
+    <h1>Crear Nuevo Post</h1>
+
+    <form id="postForm">
+        <label>Image URL: <input type="url" id="image" required></label><br><br>
+        <label>Title: <input type="text" id="title" required></label><br><br>
+        <label>Description:<br><textarea id="description" required></textarea></label><br><br>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <p><a href="/list.html">Ir al listado</a></p>
+    <script src="component/index.js"></script>
+
+    </body>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    h1 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #3498db;
+    }
+    form {
+        background-color: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    label {
+        display: block;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: #34495e;
+    }
+    input[type="url"],
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+    button {
+        color:#2c3e50;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        display: block;
+        margin: 20px auto 0;
+    }
+    button:hover {
+        text-decoration: underline;
+    }
+    a {
+        display: inline-block;
+        background-color: #3498db;
+        color: white;
+        padding: 8px 15px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        transition: background-color 0.3s;
+    }
+    a:hover {
+        
+        text-decoration: underline;
+    }
+</style>
+    </html>
