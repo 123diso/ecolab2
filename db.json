@@ -9,27 +9,6 @@
       "id": "2",
       "title": "another title",
       "views": 200
-    },
-    {
-      "id": "e457",
-      "image": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/15665/production/_107435678_perro1.jpg.webp",
-      "title": "s",
-      "description": "s",
-      "createdAt": 1755306503759
-    },
-    {
-      "id": "e630",
-      "image": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/15665/production/_107435678_perro1.jpg.webp",
-      "title": "dd",
-      "description": "dwdw",
-      "createdAt": 1755307766384
-    },
-    {
-      "id": "7f29",
-      "image": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/15665/production/_107435678_perro1.jpg.webp",
-      "title": "dwd",
-      "description": "dwdw",
-      "createdAt": 1755308889646
     }
   ]
 }
